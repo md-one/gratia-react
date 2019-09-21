@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  h3 {
+    font-family: "Selima";
+    color: #f6f6f7;
+    font-family: "Permanent Marker", cursive;
+  }
+  h2 {
+    font-family: "Montserrat", sans-serif;
+  }
+  p {
+    font-family: "Crimson Text", serif;
+  }
+}
+body {
+  margin: 0;
+}
+
+main {
+  .meals {
+    height: 130vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 5%;
+    grid-column-gap: 5%;
+    padding: 0 5%;
+    .meal {
+      box-shadow: 0 0 183px #e5e6eb;
+      transition: all 0.2s ease-out;
+      //height: 347px;
+      //width: 281px;
+      &:hover {
+        transition: all 0.5s;
+        box-shadow: 0 0 0 2px #e5e6eb;
+      }
+      .mealImg {
+        height: 60%;
+        width: 100%;
+        background-size: cover;
+      }
+
+      .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 40%;
+        width: 100%;
+        text-align: center;
+        background: white;
+        h2 {
+          margin: 0;
+          margin-bottom: 15px;
+          color: black;
+        }
+        p {
+          margin: 0;
+          color: #8b909d;
+        }
+      }
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}

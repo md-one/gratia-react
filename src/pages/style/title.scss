@@ -1,0 +1,30 @@
+.title {
+  height: 45vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  h3 {
+    position: absolute;
+    font-size: 43vh;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+    text-align: center;
+    width: 100%;
+    line-height: 43vh;
+  }
+  h2 {
+    font-size: 48px;
+    margin: 0;
+    z-index: 2;
+    padding-top: 3%;
+  }
+  p {
+    font-size: 24px;
+    color: #8b909d;
+    z-index: 2;
+    margin: 0;
+  }
+}

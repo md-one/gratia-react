@@ -1,0 +1,104 @@
+@font-face {
+  font-family: Selima;
+  //src: url(fonts/Selima.otf);
+}
+
+* {
+  box-sizing: border-box;
+  h3 {
+    font-family: "Selima";
+    color: #f6f6f7;
+    font-family: "Permanent Marker", cursive;
+  }
+  h2 {
+    font-family: "Montserrat", sans-serif;
+  }
+  p {
+    font-family: "Crimson Text", serif;
+  }
+}
+body {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background: #151b28;
+}
+
+main {
+  section {
+    height: 50vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 45vh 5vh;
+    .box {
+      height: 100%;
+      width: 100%;
+      background: red;
+      position: relative;
+      .overlay {
+        top: 0;
+        position: absolute;
+        left: 0;
+        transition: all 1s;
+        height: 100%;
+        width: 100%;
+        background: rgba(17, 22, 32, 0.3);
+      }
+      .text {
+        position: absolute;
+        z-index: 3;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        transition: all 1s;
+        h2 {
+          color: #d89b64;
+          margin: 0;
+        }
+        hr {
+          width: 30px;
+        }
+        p {
+          margin: 0;
+          color: white;
+          font-family: "Montserrat", sans-serif;
+        }
+      }
+      &:hover {
+        .overlay {
+          background: rgba(17, 22, 32, 0);
+          transition: all 0.7s;
+        }
+        .text {
+          left: 50%;
+          top: 100%;
+          transform: translate(-50%, -120%);
+          transition: all 0.7s;
+          transition-delay: 0.1s;
+        }
+      }
+    }
+    .box:nth-child(1) {
+      background-image: url(../../images/Photo1.png);
+    }
+    .box:nth-child(2) {
+      background-image: url(../../images/Photo2.png);
+      background-position: center;
+    }
+    .box:nth-child(3) {
+      background-image: url(../../images/Photo3.png);
+    }
+    > h2 {
+      color: #d89b64;
+      grid-column: 1 / span 3;
+      widows: 100%;
+      font-size: 23px;
+      text-align: center;
+    }
+  }
+}
