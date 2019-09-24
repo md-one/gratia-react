@@ -1,12 +1,14 @@
 import React from "react";
 import "./style/menu.scss";
 import "./style/title.scss";
-import MealsList from "../meals.json?";
+import MealsList from "../meals.json";
 
 class test extends React.Component {
   state = {};
+
   render() {
-    const meals = MealsList.map(meal => (
+    console.log(MealsList);
+    const meals = MealsList.Main_Dishes.map(meal => (
       <div class="meal">
         <a href={"/menu/" + meal.category}>
           <div
