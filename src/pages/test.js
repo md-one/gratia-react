@@ -8,9 +8,9 @@ class test extends React.Component {
 
   render() {
     console.log(MealsList);
-    const meals = MealsList.Main_Dishes.map(meal => (
+    const meals = MealsList.desserts.map(meal => (
       <div class="meal">
-        <a href={"/menu/" + meal.category}>
+        <a href={"/menu/" + meal.category + "/" + meal.title}>
           <div
             class="mealImg"
             style={{

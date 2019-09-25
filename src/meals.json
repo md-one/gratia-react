@@ -13,17 +13,41 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     }
   ],
-  "disert": [
+  "desserts": [
     {
-      "category": "Soups",
-      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1568762911/test/meal2_zcmpnj.png",
-      "title": "MAIN DISHES",
+      "category": "desserts",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1569362333/test/desserts/eclair-3366430_1920_gig7r3.jpg",
+      "title": "Éclair strawberry",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
-      "category": "Soups",
-      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1568762911/test/meal2_zcmpnj.png",
-      "title": "MAIN DISHES",
+      "category": "desserts",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1569362408/test/desserts/assorted-fruits-close-up-colorful-2955817_ihsdjp.jpg",
+      "title": "Frozen Fruit",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "category": "desserts",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1569362535/test/desserts/blur-cake-chocolate-954199_hhluyj.jpg",
+      "title": "Melted Cake",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "category": "desserts",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1569362446/test/desserts/black-background-chocolate-close-up-1233462_tidn4n.jpg",
+      "title": "ice cream",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "category": "desserts",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1569362792/test/desserts/macarons-2548810_1920_kx3qaj.jpg",
+      "title": "macarons raspberries",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "category": "desserts",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1569362719/test/desserts/baked-goods-chocolate-chocolate-chip-cookies-890577_yado4x.jpg",
+      "title": "cookies",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     }
   ]
