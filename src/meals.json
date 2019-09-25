@@ -50,5 +50,43 @@
       "title": "cookies",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     }
+  ],
+  "salads": [
+    {
+      "category": "salads",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1569362333/test/desserts/eclair-3366430_1920_gig7r3.jpg",
+      "title": "Tabbouleh",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "category": "salads",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1569412362/test/salads/Cobb_salad_jzyoxn.jpg",
+      "title": "Cobb salad",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "category": "salads",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1569362535/test/desserts/blur-cake-chocolate-954199_hhluyj.jpg",
+      "title": "Larb",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "category": "salads",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1569362446/test/desserts/black-background-chocolate-close-up-1233462_tidn4n.jpg",
+      "title": "Waldorf salad",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "category": "salads",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1569362792/test/desserts/macarons-2548810_1920_kx3qaj.jpg",
+      "title": "Nicoise salad",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "category": "salads",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1569362719/test/desserts/baked-goods-chocolate-chocolate-chip-cookies-890577_yado4x.jpg",
+      "title": "Bean Salad",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
   ]
 }

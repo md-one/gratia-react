@@ -29,10 +29,10 @@ class menu extends React.Component {
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
       {
-        category: "Main_Dishes",
+        category: "Desserts",
         img:
           "https://res.cloudinary.com/dyndxow8x/image/upload/v1568762907/test/meal4_vbkrao.png",
-        title: "MAIN DISHES",
+        title: "Desserts",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
       {
