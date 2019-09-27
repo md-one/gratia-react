@@ -17,7 +17,7 @@ class home extends React.Component {
           <div class="box">
             <div class="overlay"></div>
             <div class="text">
-              <h2>BREAKFAST</h2>
+              <h2>DESSERTS</h2>
               <hr />
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
@@ -25,7 +25,7 @@ class home extends React.Component {
           <div class="box">
             <div class="overlay"></div>
             <div class="text">
-              <h2>BREAKFAST</h2>
+              <h2>SMOOTHIES</h2>
               <hr />
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
