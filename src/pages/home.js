@@ -9,7 +9,7 @@ class home extends React.Component {
       <main>
         <header></header>
         <div class="title">
-          <h3>Gratia</h3>
+          <h3 className="home">Gratia</h3>
           <h2>PERFECTION</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
