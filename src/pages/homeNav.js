@@ -1,12 +1,12 @@
 import React from "react";
-import "./style/nav.scss";
+import "./style/homeNav.scss";
 import logo from "./style/icons/logo.png";
 
-class nav extends React.Component {
+class homeNav extends React.Component {
   state = {};
   render() {
     return (
-      <nav>
+      <nav id="homeNav">
         <div class="logo">
           <a href="/">
             <img src={logo} alt="" />
@@ -31,4 +31,4 @@ class nav extends React.Component {
   }
 }
 
-export default nav;
+export default homeNav;

@@ -1,5 +1,6 @@
 import React from "react";
 import "./style/footer.scss";
+import logo from "./style/icons/logo.png";
 
 class footer extends React.Component {
   state = {};
@@ -7,7 +8,7 @@ class footer extends React.Component {
     return (
       <footer>
         <div class="logo">
-          <img src="src/icons/logo.png" alt="" />
+          <img src={logo} alt="" />
           <hr />
         </div>
         <div class="text">

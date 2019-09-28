@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  h3 {
+    font-family: "Selima";
+    color: #f6f6f7;
+    font-family: "Permanent Marker", cursive;
+  }
+  h2,
+  h4 {
+    font-family: "Montserrat", sans-serif;
+  }
+  p {
+    font-family: "Crimson Text", serif;
+  }
+}
+body {
+  margin: 0;
+}
+
+#theMealDetails {
+  margin: auto;
+  width: 75%;
+  height: 85vh;
+  box-shadow: 0 0 183px #e5e6eb;
+  transition: all 0.2s ease-out;
+  display: grid;
+  grid-template-columns: 45% 55%;
+  grid-template-rows: 40% 30% auto;
+
+  &:hover {
+    transition: all 0.5s;
+    box-shadow: 0 0 0 2px #e5e6eb;
+  }
+  .theMealImg {
+    grid-column: 1;
+    grid-row: 1 / 4;
+    background-size: cover;
+    background-position: center;
+  }
+  .description {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2 {
+      font-size: 45px;
+      margin: 0;
+    }
+    p {
+      font-size: 20px;
+      margin-bottom: 0;
+    }
+  }
+  .components {
+    grid-column: 2;
+    grid-row: 2;
+    border-top: 2px solid #e7e7e9;
+    border-bottom: 2px solid #e7e7e9;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2 {
+      font-size: 25px;
+    }
+    p {
+      font-size: 20px;
+      width: 60%;
+      line-height: 1.5;
+    }
+  }
+  .cost {
+    grid-column: 2;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h4 {
+      color: #829c2c;
+      font-size: 50px;
+      margin: 0;
+    }
+    p {
+      font-size: 20px;
+      margin: 0;
+      margin-top: 5px;
+    }
+  }
+}
