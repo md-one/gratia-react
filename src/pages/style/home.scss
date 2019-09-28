@@ -1,14 +1,8 @@
-@font-face {
-  font-family: Selima;
-  //src: url(fonts/Selima.otf);
-}
-
 * {
   box-sizing: border-box;
   h3 {
-    font-family: "Selima";
+    font-family: Selima;
     color: #f6f6f7;
-    font-family: "Permanent Marker", cursive;
   }
   h2 {
     font-family: "Montserrat", sans-serif;
@@ -25,6 +19,8 @@ header {
   width: 100%;
   height: 100vh;
   background: #151b28;
+  position: relative;
+  z-index: -6;
 }
 
 main {
@@ -39,6 +35,7 @@ main {
       width: 100%;
       background: red;
       position: relative;
+      background-size: cover;
       .overlay {
         top: 0;
         position: absolute;
