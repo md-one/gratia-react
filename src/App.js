@@ -5,7 +5,7 @@ import Nav from "./pages/nav";
 import Homenav from "./pages/homeNav";
 import Home from "./pages/home";
 import Menu from "./pages/menu";
-import Test from "./pages/test";
+import Contact from "./pages/contact";
 import DessertsMenu from "./pages/dessertsMenu";
 import MainMenu from "./pages/mainMenu";
 import SaladsMenu from "./pages/saladsMenu";
@@ -21,10 +21,12 @@ function App() {
           <Route path="/" exact component={Homenav} />
           <Route path="/home" exact component={Homenav} />
           <Route path="/menu" component={Nav} />
+          <Route path="/contact" component={Nav} />
 
           <Route path="/" exact component={Home} />
           <Route path="/home" exact component={Home} />
           <Route path="/menu" exact component={Menu} />
+          <Route path="/contact" exact component={Contact} />
 
           <Route path="/menu/Desserts" exact component={DessertsMenu} />
           <Route path="/menu/Desserts/:title" exact component={Details} />
