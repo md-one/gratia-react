@@ -68,3 +68,43 @@ main {
     }
   }
 }
+
+@media only screen and (max-width: 992px) {
+  main {
+    .meals {
+      height: 80vh;
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+      grid-row-gap: 4%;
+      grid-column-gap: 4%;
+      padding: 0 3%;
+      .meal {
+        .mealImg {
+          height: 60%;
+          width: 100%;
+          background-size: cover;
+        }
+
+        .description {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          height: 40%;
+          width: 100%;
+          text-align: center;
+          background: white;
+          h2 {
+            margin: 0;
+            margin-bottom: 7px;
+            font-size: 0.9em;
+            color: black;
+          }
+          p {
+            font-size: 0.8em;
+          }
+        }
+      }
+    }
+  }
+}

@@ -13,7 +13,7 @@ class home extends React.Component {
           <h2>PERFECTION</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
-        <section>
+        <section id="muneIntroduction">
           <div class="box">
             <div class="overlay"></div>
             <div class="text">
@@ -40,6 +40,7 @@ class home extends React.Component {
           </div>
           <h2>CHECK OTHER OFFERS</h2>
         </section>
+        <section id="details"></section>
       </main>
     );
   }
