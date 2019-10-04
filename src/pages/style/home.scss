@@ -24,12 +24,12 @@ header {
 }
 
 main {
-  section {
-    height: 50vh;
+  #muneIntroduction {
+    height: 60vh;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 45vh 5vh;
+    grid-template-rows: 45vh 15vh;
     .box {
       height: 100%;
       width: 100%;
@@ -97,5 +97,11 @@ main {
       font-size: 23px;
       text-align: center;
     }
+  }
+  #details {
+    height: 60vh;
+    width: 100%;
+    background-image: url(../../images/detailsBG.png);
+    background-size: cover;
   }
 }
