@@ -99,9 +99,94 @@ main {
     }
   }
   #details {
-    height: 60vh;
+    height: 70vh;
     width: 100%;
     background-image: url(../../images/detailsBG.png);
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .whiteBoard {
+      background: white;
+      width: 50%;
+      height: 70%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 80%;
+        border: 2px solid #cccccc;
+        h2 {
+          margin: 0;
+        }
+        button {
+          background: rgba(#fff, 0);
+          border: 1px solid #cccccc;
+          padding: 10px 20px;
+          color: #d89b64;
+          font-weight: 700;
+          margin: 0;
+        }
+      }
+    }
+  }
+  #weTheBest {
+    display: flex;
+    justify-content: space-evenly;
+    .box {
+      width: 30%;
+      height: 35vh;
+      background: #d89b64;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .text {
+        height: 100%;
+        width: 100%;
+        padding: 0 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgba(17, 22, 32, 0.6);
+        transition: all 0.7s;
+        &:hover {
+          background: rgba(17, 22, 32, 0);
+          transition: all 0.7s;
+        }
+        h2 {
+          color: #d89b64;
+          margin: 0;
+          margin-bottom: 15px;
+        }
+        p {
+          margin: 0;
+          color: white;
+          font-family: "Montserrat", sans-serif;
+        }
+      }
+    }
+    .box:nth-child(1) {
+      background: url(../../images/Photo4.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+    .box:nth-child(2) {
+      background: url(../../images/Photo5.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+    .box:nth-child(3) {
+      background: url(../../images/Photo6.jpg);
+      background-size: cover;
+      background-position: center;
+    }
   }
 }
