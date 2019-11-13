@@ -144,27 +144,27 @@
   ],
   "Soups": [
     {
-      "category": "Breakfast",
+      "category": "Soups",
       "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1572618936/test/soup/8-low-ural-l3Mr7vSdmd4-unsplash_jth7xa.jpg",
       "title": "beef noodles",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
-      "category": "Breakfast",
+      "category": "Soups",
       "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1572618937/test/soup/mae-mu-H5Hj8QV2Tx4-unsplash_xpsabk.jpg",
       "title": "noodles soup",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
-      "category": "Breakfast",
+      "category": "Soups",
       "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1572620754/test/soup/clam_soup_hsqhas.jpg",
       "title": "clam soup",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
-      "category": "Breakfast",
+      "category": "Soups",
       "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1572619080/test/soup/soup-2006317_1280_fyfxyg.jpg",
-      "title": "Waldorf salad",
+      "title": "vegetable soup",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     }
   ],
