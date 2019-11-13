@@ -7,7 +7,9 @@ class home extends React.Component {
   render() {
     return (
       <main>
-        <header></header>
+        <header>
+          <h3>Gratia</h3>
+        </header>
         <div class="title">
           <h3 className="home">Gratia</h3>
           <h2>PERFECTION</h2>

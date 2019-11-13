@@ -2,14 +2,33 @@
   "Main_Dishes": [
     {
       "category": "Main_Dishes",
-      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1568762907/test/meal1_lwg3xa.png",
-      "title": "MAIN DISHES",
+      "img": "https://media-public.canva.com/MAAvd_srwZw/1/thumbnail_large.jpg",
+      "title": "Lasagne",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
       "category": "Main_Dishes",
-      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1568762907/test/meal1_lwg3xa.png",
-      "title": "MAIN DISHES",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1572626388/test/main/asparagus-barbecue-bbq-675951_vg19ml.jpg",
+      "title": "grilled steak",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "category": "Main_Dishes",
+      "img": "https://t3.ftcdn.net/jpg/02/28/09/68/240_F_228096810_uZQVXuclYZoBcfDjvw9qttl000Pd1Wel.jpg",
+      "title": "kabab",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "3.50"
+    },
+    {
+      "category": "Main_Dishes",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1572619142/test/main/riccardo-bergamini-Xe14NrSK9io-unsplash_w45kkv.jpg",
+      "title": "kabab",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "category": "Main_Dishes",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1572620721/test/main/caroline-attwood-bpPTlXWTOvg-unsplash_afn7cz.jpg",
+      "title": "kabab",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     }
   ],
@@ -86,6 +105,98 @@
       "category": "salads",
       "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1569362719/test/desserts/baked-goods-chocolate-chocolate-chip-cookies-890577_yado4x.jpg",
       "title": "Bean Salad",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
+  ],
+  "breakfast": [
+    {
+      "category": "Breakfast",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1572549332/test/breakfast/bacon-breakfast-close-up-2961957_gjptmf.jpg",
+      "title": "eggs & bacon",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "8.50"
+    },
+    {
+      "category": "Breakfast",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1572533546/test/breakfast/coffee-983955_640_bs55y2.jpg",
+      "title": "coffee",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "3"
+    },
+    {
+      "category": "Breakfast",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1572549125/test/breakfast/anastasiia-ostapovych-JzUCh9XPFgk-unsplash_we3fdw.jpg",
+      "title": "chocolate croissant",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "category": "Breakfast",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1572533547/test/breakfast/pancake-1984716_640_ty8v4y.jpg",
+      "title": "raspberry pancake",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "category": "Breakfast",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1572533549/test/breakfast/strawberries-1445849_640_otnbik.jpg",
+      "title": "strawberry pancake",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
+  ],
+  "Soups": [
+    {
+      "category": "Breakfast",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1572618936/test/soup/8-low-ural-l3Mr7vSdmd4-unsplash_jth7xa.jpg",
+      "title": "beef noodles",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "category": "Breakfast",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1572618937/test/soup/mae-mu-H5Hj8QV2Tx4-unsplash_xpsabk.jpg",
+      "title": "noodles soup",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "category": "Breakfast",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1572620754/test/soup/clam_soup_hsqhas.jpg",
+      "title": "clam soup",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "category": "Breakfast",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1572619080/test/soup/soup-2006317_1280_fyfxyg.jpg",
+      "title": "Waldorf salad",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
+  ],
+  "sandwich": [
+    {
+      "category": "sandwich",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1573611511/test/sandwich/hans-vivek-mBu44hd3ea0-unsplash_nhyzbu.jpg",
+      "title": "chicken sandwich",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "category": "sandwich",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1573051377/test/sandwich/youjeen-cho-sBKLiRiunK0-unsplash_baij7h.jpg",
+      "title": "tuna sandwich",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "category": "sandwich",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1573052048/test/sandwich/bread-breakfast-cheese-food-236813_jcbhz5.jpg",
+      "title": "avocado toast",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "category": "sandwich",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1573051362/test/sandwich/vegetale-and-meat-sandwhich-133578_vxanes.jpg",
+      "title": "ham && eggs",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "category": "sandwich",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1573051908/test/sandwich/cooked-food-1885578_fuxgl1.jpg",
+      "title": "cheese & vegetables",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     }
   ]

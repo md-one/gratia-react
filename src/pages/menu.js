@@ -8,45 +8,45 @@ class menu extends React.Component {
   render() {
     let mealsCategories = [
       {
+        category: "Breakfast",
+        img:
+          "https://res.cloudinary.com/dyndxow8x/image/upload/v1572533547/test/breakfast/pancake-1984716_640_ty8v4y.jpg",
+        title: "BREAKFAST",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
         category: "Main_Dishes",
         img:
-          "https://res.cloudinary.com/dyndxow8x/image/upload/v1568762907/test/meal1_lwg3xa.png",
+          "https://res.cloudinary.com/dyndxow8x/image/upload/v1572620721/test/main/caroline-attwood-bpPTlXWTOvg-unsplash_afn7cz.jpg",
         title: "MAIN DISHES",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      },
-      {
-        category: "Soups",
-        img:
-          "https://res.cloudinary.com/dyndxow8x/image/upload/v1568762911/test/meal2_zcmpnj.png",
-        title: "SOUPS",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      },
-      {
-        category: "Hamburgers",
-        img:
-          "https://res.cloudinary.com/dyndxow8x/image/upload/v1568762895/test/meal3_fy94er.png",
-        title: "HAMBURGERS",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
       {
         category: "Desserts",
         img:
-          "https://res.cloudinary.com/dyndxow8x/image/upload/v1568762907/test/meal4_vbkrao.png",
-        title: "Desserts",
+          "https://res.cloudinary.com/dyndxow8x/image/upload/v1569362535/test/desserts/blur-cake-chocolate-954199_hhluyj.jpg",
+        title: "DESSERTS",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
       {
-        category: "Main_Dishes",
+        category: "Sandwich",
         img:
-          "https://res.cloudinary.com/dyndxow8x/image/upload/v1568762909/test/meal5_nct0jn.png",
-        title: "MAIN DISHES",
+          "https://res.cloudinary.com/dyndxow8x/image/upload/v1573051377/test/sandwich/youjeen-cho-sBKLiRiunK0-unsplash_baij7h.jpg",
+        title: "SANDWICH",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
       {
-        category: "Main_Dishes",
+        category: "Soups",
         img:
-          "https://res.cloudinary.com/dyndxow8x/image/upload/v1568762915/test/meal6_pfrhah.png",
-        title: "MAIN DISHES",
+          "https://res.cloudinary.com/dyndxow8x/image/upload/v1572618936/test/soup/8-low-ural-l3Mr7vSdmd4-unsplash_jth7xa.jpg",
+        title: "SOUPS",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        category: "Salads",
+        img:
+          "https://res.cloudinary.com/dyndxow8x/image/upload/v1568762895/test/meal3_fy94er.png",
+        title: "SALADS",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       }
     ];
@@ -58,24 +58,21 @@ class menu extends React.Component {
             style={{
               backgroundImage: "url(" + meal.img + ")"
             }}
-          ></div>
+          ></div>{" "}
           <div class="description">
-            <h2>{meal.title}</h2>
-            <p>{meal.description}</p>
-          </div>
-        </a>
+            <h2> {meal.title} </h2> <p> {meal.description} </p>{" "}
+          </div>{" "}
+        </a>{" "}
       </div>
     ));
 
     return (
       <main>
         <div class="title">
-          <h3>Gratia</h3>
-          <h2>PERFECTION</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3> Gratia </h3> <h2> PERFECTION </h2>{" "}
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>{" "}
         </div>
-
-        <div class="meals">{meals}</div>
+        <div class="meals"> {meals} </div>{" "}
       </main>
     );
   }

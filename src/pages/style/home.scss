@@ -18,9 +18,22 @@ body {
 header {
   width: 100%;
   height: 100vh;
+  border: 5vh solid #151b28;
   background: #151b28;
   position: relative;
   z-index: -6;
+  background: url(../../images/header.jpg);
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h3 {
+    font-family: Selima;
+    margin-top: 200px;
+    font-size: 350px;
+    color: #151b28;
+  }
 }
 
 main {

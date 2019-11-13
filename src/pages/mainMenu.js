@@ -2,6 +2,7 @@ import React from "react";
 import "./style/menu.scss";
 import "./style/title.scss";
 import MealsList from "../meals.json";
+import { Link } from "react-router-dom";
 
 class test extends React.Component {
   state = {};
@@ -10,7 +11,15 @@ class test extends React.Component {
     console.log(MealsList);
     const meals = MealsList.Main_Dishes.map(meal => (
       <div class="meal">
-        <a href={"/menu/" + meal.category + "/" + meal.title}>
+        <Link
+          to={{
+            pathname: `/menu/${meal.category}/${meal.title}`,
+            state: {
+              description: `${meal.description}`,
+              img: `${meal.img}`
+            }
+          }}
+        >
           <div
             class="mealImg"
             style={{
@@ -21,7 +30,7 @@ class test extends React.Component {
             <h2>{meal.title}</h2>
             <p>{meal.description}</p>
           </div>
-        </a>
+        </Link>
       </div>
     ));
 

@@ -14,13 +14,10 @@ class nav extends React.Component {
         </div>
         <ul>
           <li>
-            <a href="/home">About</a>
+            <a href="/home">Home</a>
           </li>
           <li>
             <a href="/menu">Menu</a>
-          </li>
-          <li>
-            <a href="">Gallery</a>
           </li>
           <li>
             <a href="/contact">Contact</a>

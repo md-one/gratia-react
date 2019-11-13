@@ -4,12 +4,12 @@ import "./style/title.scss";
 import MealsList from "../meals.json";
 import { Link } from "react-router-dom";
 
-class test extends React.Component {
+class dessertsMenu extends React.Component {
   state = {};
 
   render() {
     console.log(MealsList);
-    const meals = MealsList.salads.map(meal => (
+    const meals = MealsList.Soups.map(meal => (
       <div class="meal">
         <Link
           to={{
@@ -48,4 +48,4 @@ class test extends React.Component {
   }
 }
 
-export default test;
+export default dessertsMenu;
