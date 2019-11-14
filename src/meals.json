@@ -73,38 +73,26 @@
   "salads": [
     {
       "category": "salads",
-      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1569362333/test/desserts/eclair-3366430_1920_gig7r3.jpg",
-      "title": "Tabbouleh",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1573618262/test/salads/vegetable-salad-with-wheat-bread-on-the-side-1213710_mxsuth.jpg",
+      "title": "avocado salad",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
       "category": "salads",
-      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1569412362/test/salads/Cobb_salad_jzyoxn.jpg",
-      "title": "Cobb salad",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1573705363/test/salads/cucumber-and-red-cabbage-coleslaw-salad-105968-1_ealql0.webp",
+      "title": "Red cabbage salad",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
       "category": "salads",
-      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1569362535/test/desserts/blur-cake-chocolate-954199_hhluyj.jpg",
-      "title": "Larb",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1573705456/test/salads/175602146-56a214873df78cf77271c3be_gtboev.jpg",
+      "title": "tuna salad",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
       "category": "salads",
-      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1569362446/test/desserts/black-background-chocolate-close-up-1233462_tidn4n.jpg",
-      "title": "Waldorf salad",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
-      "category": "salads",
-      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1569362792/test/desserts/macarons-2548810_1920_kx3qaj.jpg",
-      "title": "Nicoise salad",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
-      "category": "salads",
-      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1569362719/test/desserts/baked-goods-chocolate-chocolate-chip-cookies-890577_yado4x.jpg",
-      "title": "Bean Salad",
+      "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1573705349/test/salads/PF641SALADX199-wc_icfyun.jpg",
+      "title": "Macedonia salad",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     }
   ],
@@ -114,7 +102,7 @@
       "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1572549332/test/breakfast/bacon-breakfast-close-up-2961957_gjptmf.jpg",
       "title": "eggs & bacon",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "price": "8.50"
+      "price": "7.50"
     },
     {
       "category": "Breakfast",
@@ -127,19 +115,22 @@
       "category": "Breakfast",
       "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1572549125/test/breakfast/anastasiia-ostapovych-JzUCh9XPFgk-unsplash_we3fdw.jpg",
       "title": "chocolate croissant",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "2.75"
     },
     {
       "category": "Breakfast",
       "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1572533547/test/breakfast/pancake-1984716_640_ty8v4y.jpg",
       "title": "raspberry pancake",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "5.75"
     },
     {
       "category": "Breakfast",
       "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1572533549/test/breakfast/strawberries-1445849_640_otnbik.jpg",
       "title": "strawberry pancake",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "5.50"
     }
   ],
   "Soups": [
@@ -173,31 +164,36 @@
       "category": "sandwich",
       "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1573611511/test/sandwich/hans-vivek-mBu44hd3ea0-unsplash_nhyzbu.jpg",
       "title": "chicken sandwich",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "3.50"
     },
     {
       "category": "sandwich",
       "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1573051377/test/sandwich/youjeen-cho-sBKLiRiunK0-unsplash_baij7h.jpg",
       "title": "tuna sandwich",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "2.75"
     },
     {
       "category": "sandwich",
       "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1573052048/test/sandwich/bread-breakfast-cheese-food-236813_jcbhz5.jpg",
       "title": "avocado toast",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "2.25"
     },
     {
       "category": "sandwich",
       "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1573051362/test/sandwich/vegetale-and-meat-sandwhich-133578_vxanes.jpg",
       "title": "ham && eggs",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "3.75"
     },
     {
       "category": "sandwich",
       "img": "https://res.cloudinary.com/dyndxow8x/image/upload/v1573051908/test/sandwich/cooked-food-1885578_fuxgl1.jpg",
       "title": "cheese & vegetables",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "3.00"
     }
   ]
 }
