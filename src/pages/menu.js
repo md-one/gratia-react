@@ -45,7 +45,7 @@ class menu extends React.Component {
       {
         category: "Salads",
         img:
-          "https://res.cloudinary.com/dyndxow8x/image/upload/v1568762895/test/meal3_fy94er.png",
+          "https://res.cloudinary.com/dyndxow8x/image/upload/v1573705363/test/salads/cucumber-and-red-cabbage-coleslaw-salad-105968-1_ealql0.webp",
         title: "SALADS",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       }
