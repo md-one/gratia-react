@@ -1,6 +1,7 @@
 import React from "react";
 import "./style/menu.scss";
 import "./style/title.scss";
+import { Link } from "react-router-dom";
 
 class menu extends React.Component {
   state = {};
@@ -52,7 +53,7 @@ class menu extends React.Component {
     ];
     const meals = mealsCategories.map(meal => (
       <div class="meal">
-        <a href={"/menu/" + meal.category}>
+        <Link to={"/menu/" + meal.category}>
           <div
             class="mealImg"
             style={{
@@ -62,7 +63,7 @@ class menu extends React.Component {
           <div class="description">
             <h2> {meal.title} </h2> <p> {meal.description} </p>{" "}
           </div>{" "}
-        </a>{" "}
+        </Link>{" "}
       </div>
     ));
 

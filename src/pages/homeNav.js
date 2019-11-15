@@ -1,6 +1,7 @@
 import React from "react";
 import "./style/homeNav.scss";
 import logo from "./style/icons/logo.png";
+import { Link } from "react-router-dom";
 
 class homeNav extends React.Component {
   state = {};
@@ -8,19 +9,19 @@ class homeNav extends React.Component {
     return (
       <nav id="homeNav">
         <div class="logo">
-          <a href="/">
+          <Link to="/">
             <img src={logo} alt="" />
-          </a>
+          </Link>
         </div>
         <ul>
           <li>
-            <a href="/home">Home</a>
+            <Link to="/home">Home</Link>
           </li>
           <li>
-            <a href="/menu">Menu</a>
+            <Link to="/menu">Menu</Link>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </nav>

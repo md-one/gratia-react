@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "./App.css";
 import Nav from "./pages/nav";
 import Homenav from "./pages/homeNav";
@@ -21,16 +21,18 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <div>
-          <Route path="/" exact component={Homenav} />
-          <Route path="/home" exact component={Homenav} />
-          <Route path="/menu" component={Nav} />
-          <Route path="/contact" component={Nav} />
-
-          <Route path="/" exact component={Home} />
-          <Route path="/home" exact component={Home} />
-          <Route path="/menu" exact component={Menu} />
-          <Route path="/contact" exact component={Contact} />
-
+          <Switch>
+            <Route path="/" exact component={Homenav} />
+            <Route path="/home" exact component={Homenav} />
+            <Route path="/menu" component={Nav} />
+            <Route path="/contact" component={Nav} />
+          </Switch>
+          <Switch>
+            <Route path="/" exact component={Home} />
+            <Route path="/home" exact component={Home} />
+            <Route path="/menu" exact component={Menu} />
+            <Route path="/contact" exact component={Contact} />
+          </Switch>
           <Route path="/menu/Desserts" exact component={DessertsMenu} />
           <Route path="/menu/Desserts/:title" exact component={Details} />
           <Route path="/menu/Breakfast" exact component={BreakfastMenu} />
